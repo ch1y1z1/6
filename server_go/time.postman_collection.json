@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "32ba134b-67d1-44e2-8da3-7e76c29f5dcd",
+		"name": "time",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25354688"
+	},
+	"item": [
+		{
+			"name": "update all",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"time\":[\n        {\n            \"H_start\":10,\n            \"M_start\":20,\n            \"H_end\":15,\n            \"M_end\":50\n        },\n        {\n            \"H_start\":10,\n            \"M_start\":20,\n            \"H_end\":15,\n            \"M_end\":50\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:9094/api/post/timeon/updateall/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "9094",
+					"path": [
+						"api",
+						"post",
+						"timeon",
+						"updateall",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Weekday\":3,\n    \"H_start\":10,\n    \"M_start\":40,\n    \"H_end\":20,\n    \"M_end\":10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://81.68.216.118:9094/api/post/timeon/add",
+					"protocol": "http",
+					"host": [
+						"81",
+						"68",
+						"216",
+						"118"
+					],
+					"port": "9094",
+					"path": [
+						"api",
+						"post",
+						"timeon",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://81.68.216.118:9094/api/get/timeon/3",
+					"protocol": "http",
+					"host": [
+						"81",
+						"68",
+						"216",
+						"118"
+					],
+					"port": "9094",
+					"path": [
+						"api",
+						"get",
+						"timeon",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete all",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://81.68.216.118:9094/api/post/timeon/deleteall/3",
+					"protocol": "http",
+					"host": [
+						"81",
+						"68",
+						"216",
+						"118"
+					],
+					"port": "9094",
+					"path": [
+						"api",
+						"post",
+						"timeon",
+						"deleteall",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

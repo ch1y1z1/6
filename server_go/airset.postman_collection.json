@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "8157e43f-1f68-43ad-baa1-29d0d97f406a",
+		"name": "airset",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25354688"
+	},
+	"item": [
+		{
+			"name": "getairset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://81.68.216.118:9094/api/get/airset",
+					"protocol": "http",
+					"host": [
+						"81",
+						"68",
+						"216",
+						"118"
+					],
+					"port": "9094",
+					"path": [
+						"api",
+						"get",
+						"airset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"num\":1234\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://81.68.216.118:9094/api/post/airset/speed",
+					"protocol": "http",
+					"host": [
+						"81",
+						"68",
+						"216",
+						"118"
+					],
+					"port": "9094",
+					"path": [
+						"api",
+						"post",
+						"airset",
+						"speed"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
