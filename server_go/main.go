@@ -52,7 +52,7 @@ type APItimeonn struct {
 
 func init() {
 	var err error
-	sqlStr := "root:123456@tcp(81.68.216.118:3306)/MTTEST?charset=utf8mb4&parseTime=True&loc=Local"
+	sqlStr := "****:****@tcp(******)/MTTEST?charset=utf8mb4&parseTime=True&loc=Local"
 	Db, err = gorm.Open(mysql.Open(sqlStr), &gorm.Config{})
 	if err != nil {
 		fmt.Println("err:", err)
