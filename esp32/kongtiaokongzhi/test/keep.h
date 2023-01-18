@@ -24,21 +24,3 @@ void keepInRealFeel(int setInRealFeel, int &setTemp)
       ++setTemp;
   }
 }
-// 通过比较当前湿度与之前的湿度判断是否达到想要实现的室内湿度
-//
-//  void keepHumidity(int setHumid,int &setHumidity){
-//     for(int i=0;i<26;i++)humidity[i]=humidity[i+1];
-//    humidity[26]=get_humidity();
-//    if (abs(humidity[26]-humidity[25])<1
-//    &&abs(humidity[26]-humidity[24])<1
-//    &&abs(humidity[26]-humidity[23])<1
-//    &&abs(humidity[26]-humidity[22])<1
-//    &&abs(humidity[26]-humidity[21])<1
-//    &&abs(humidity[26]-humidity[20])<1
-//    &&abs(humidity[26]-humidity[19])<1
-//    &&abs(humidity[26]-humidity[18])<1
-//    &&abs(humidity[26]-humidity[17])<1){
-//      if(humidity[26]-setHumid>1) setHumidity--;
-//          if(setHumid-humidity[26]>1) setHumidity++;
-//  }
-//  }

@@ -4,16 +4,6 @@
 #include <HTTPClient.h>
 #include "cstring"
 
-// void WiFi_Connect(char *name, char *password)
-// {
-//     WiFi.begin(name, password);
-//     Serial.print("connecting.");
-//     while (WiFi.status() != WL_CONNECTED)
-//     { //这里是阻塞程序，直到连接成功
-//         delay(300);
-//         Serial.print(".");
-//     }
-// }
 
 //获取当前室外气象状况
 String getWeather(int citiID)
