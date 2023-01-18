@@ -12,3 +12,5 @@ ME1221-02-2
 2. 服务器部分，现已使用golang重写，详见/server_go
 3. 桌面应用程序部分。使用python+flet开发，详见/flet_desktop_app
 4. 移动端应用程序部分.使用flutter开发，详见/flutter_mobile_app
+
+![](2023-01-18-12-40-32.png)
